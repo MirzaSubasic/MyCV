@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang=“en”>
+
+<head>
+    <meta charset=“UTF-8”>
+    <link href="slides/user.png" rel="shortcut icon">
+    <title>Mirza Subasic resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link href="style.css" rel="stylesheet"> </link>
+</head>
+
+<body id="BODY">
+    <div id="Body">
+        <div class="top">
+            <img class="myPhoto" src="slides/MyPhoto2.jpg" alt="My picture">
+            <p><br><br><br><br><br><br><br><br><br></p>
+        </div>
+        <hr>
+
+        <div class="text">
+            <h3>CONTENT TABLE</h3>
+            <p><button class="contentButton" onclick="addContentTable()"> Click to see content table </button></p><br>
+            <p id="text"> </p>
+            <hr>
+
+            <a name="BIO">
+                <h3>BIO</h3>
+            </a>
+            <p>
+                I am Mirza Subašić, third year student at International University of Sarajevo (<acronym title="Software Engineering department">SE department</acronym>) .
+            </p>
+            <hr>
+
+
+            <a name="EDUCATION">
+                <h3>EDUCATION</h3>
+            </a>
+            <p>
+                <table class="educationTable">
+                    <tr>
+                        <th><b>YEAR</b></th>
+                        <th><b>EDUCATION LEVEL</b></th>
+                        <th><b>SCHOOL/UNIVERSITY NAME</b></th>
+                    </tr>
+
+                    <tr>
+                        <td>2006-2015</td>
+                        <td><b>Elementary school</b></td>
+                        <td>Grbavica 1</td>
+                    </tr>
+
+                    <tr>
+                        <td>2015-2019</td>
+                        <td><b>High school</b></td>
+                        <td><a href="http://treca-gimnazija.edu.ba/" target="_blank">Third Gymnasium</a> - department for mathematics and informatics</td>
+                    </tr>
+
+                    <tr>
+                        <td>2019-present</td>
+                        <td><b>University</b></td>
+                        <td><a href="https://www.ius.edu.ba/" target="_blank">International University of Sarajevo</a> - Software engineering</td>
+                    </tr>
+                </table>
+            </p>
+            <hr>
+
+
+            <a name="SKILS">
+                <h3>SKILS</h3>
+            </a>
+            <p>
+                <ul>
+                    <li>Programming:</li>
+                    <ol type="i" start="1">
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>R</li>
+                        <li>Basic knowledge of Python</li>
+                        <li>Basic knowledge of SQL</li>
+                    </ol>
+                    <li>Web development:</li>
+                    <ol type="i" start="1">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>Basic knowledge of NodeJS</li>
+                    </ol>
+                    <li>I can speak:</li>
+                    <ol type="i" start="1">
+                        <li>Bosnian</li>
+                        <li>English</li>
+                    </ol>
+                </ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click <a href="https://github.com/MirzaSubasic" target="_blank">here</a> for my Github account.
+            </p>
+            <hr>
+
+            <a name="WORKINGEXPERIENCE">
+                <h3>WORKING EXPERIENCE</h3>
+            </a>
+            <p>
+                <table class="workingExp">
+                    <tr>
+                        <th>YEAR</th>
+                        <th>PLACE</th>
+                        <th>JOB DESCRIPTION</th>
+                    </tr>
+                    <tr>
+                        <td>Summer 2019</td>
+                        <td>Comtrade Distribution</td>
+                        <td>Computer assembling and installation of operating systems</td>
+                    </tr>
+                    <tr>
+                        <td>Summer 2020</td>
+                        <td>Comtrade Distribution</td>
+                        <td>Computer assembling, installation of operating systems and testing of internet routers</td>
+                    </tr>
+                    <tr>
+                        <td>November 2021</td>
+                        <td>IUS</td>
+                        <td>Working on a web page (click <a href="http://www.njegaduse.ba/" target="_blank">here</a> to open it)</td>
+                    </tr>
+                </table>
+            </p>
+
+            <hr>
+
+            <a name="ADDRESS">
+                <h3>ADDRESS</h3>
+            </a>
+            <p>
+                My address: <i>Hamdije Čemerlića 49, Sarajevo</i><br> IUS: <i>Hrasnička cesta 15, Ilidža</i>
+            </p>
+            <hr>
+
+
+            <a name="CONTACT ME">
+                <h3>CONTACT ME</h3>
+            </a>
+            <p>
+                <b>Mail address: </b>
+                <a href="mailto:190302025@student.ius.edu.ba">190302025@student.ius.edu.ba</a><br> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                <a href="mailto:mirza.suba@gmail.com">mirza.suba@gmail.com</a><br>
+
+                <b>Phone number: </b> <a href="tel:38762869108"><b>+387 (0)62 869 108</b></a>
+                <br><br>
+            </p>
+            <hr>
+
+
+            <a name="JavaScript">
+                <h3>JAVASCRIPT EXAMPLE</h3>
+            </a>
+            <p>
+                <button type="button" id="light" onclick="changeBackgroundColor(this.id)"> Light mode</button>
+                <button type="button" id="dark" onclick="changeBackgroundColor(this.id)"> Dark mode</button>
+                <br>
+                <div class="container">
+                    <div class="slides">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="slides/Sarajevo.jpg" class="photo">
+                    </div>
+                    <div class="slides">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="slides/Sarajevo1.jpg" class="photo">
+                    </div>
+                    <div class="slides">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="slides/Sarajevo2.jpg" class="photo">
+                    </div>
+                    <div class="slides">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="slides/Sarajevo3.jpg" class="photo">
+                    </div>
+                    <div class="slides">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="slides/Sarajevo4.jpg" class="photo">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="slides/Sarajevo.jpg" style="width: 100%;" onclick="currentSlide(1)" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="slides/Sarajevo1.jpg" style="width: 100%;" onclick="currentSlide(2)" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="slides/Sarajevo2.jpg" style="width: 100%;" onclick="currentSlide(3)" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="slides/Sarajevo3.jpg" style="width: 100%;" onclick="currentSlide(4)" alt="">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="slides/Sarajevo4.jpg" style="width: 100%;" onclick="currentSlide(5)" alt="">
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </p>
+        </div>
+    </div>
+
+
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>
